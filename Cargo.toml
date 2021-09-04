@@ -1,0 +1,13 @@
+[package]
+name = "vareplay"
+version = "0.1.0"
+authors = ["Tommy Hudson <thomhuds@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glib = "0.14"
+gstreamer = "0.17"
+pipewire = "0.4"
+portal-screencast = "0.1"
