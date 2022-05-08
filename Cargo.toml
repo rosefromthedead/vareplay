@@ -8,6 +8,6 @@ edition = "2018"
 
 [dependencies]
 glib = "0.14"
-gstreamer = "0.17"
+gstreamer = { version = "0.17", features = ["v1_14"] }
 pipewire = "0.4"
 portal-screencast = "0.1"
