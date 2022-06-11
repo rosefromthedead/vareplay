@@ -1,0 +1,14 @@
+[package]
+name = "vareplay"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libspa = { path = "../pipewire-rs/libspa" }
+libspa-sys = { path = "../pipewire-rs/libspa-sys" }
+pipewire = { path = "../pipewire-rs/pipewire" }
+portal-screencast = "0.1.0"
+
+[build-dependencies]
+cc = "1.0.73"
+pkg-config = "0.3.25"
